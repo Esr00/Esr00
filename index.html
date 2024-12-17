@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Weather</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+	</head>
+
+
+	<body class="bg-dark">
+		<nav class="navbar navbar-expand-lg py-0 ">
+			<div class="container-fluid  ps-5 pe-5 py-4 bg-dark " id="rgba">
+				<a class="branding text-light d-flex  fs-5" href="/">
+					<img src="logo.png" alt="" class="logo w-50 h-50">
+					<div class="logo-type fs-6">
+						<h5 class="site-title">Weather</h5>
+						<h6 class="site-description">tagline goes here</h6>
+					</div>
+				</a>
+			  <button class="navbar-toggler" id="nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="#Home">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link  text-light" href="#ABOUT">News</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link  text-light" href="#SERVICES">Live cameras</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link  text-light" href="#WORK">Photos</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link  text-light" href="#Clients">Contact</a>
+				  </li>
+				 
+				</ul> 
+			  </div>
+			</div>
+		  </nav>
+
+
+
+<div class="hero pt-5" data-bg-image="images/banner.png" style="background-image: url(banner.png);">
+<div class="container">
+	<form class="find-location position-relative">
+		<input type="text" placeholder="Find your location..." id="search" class="my-5">
+		<input type="button" value="Find" id="submit" class="my-5">
+	</form>
+
+</div>
+
+	
+<div class="container-fluid w-75 mb-5">
+<div class="card-group">
+<div class="card " id="card-b" >
+<div class="forecast-header d-flex justify-content-between text-secondary" id="today">
+<div class="day">Sunday</div>
+<div class=" date">15December</div>
+</div>
+<div class="card-body text-light">
+<div class="forecast-content" id="current">
+<div class="location">Cairo</div>
+<div class="degree">
+<div class="num">20.1<sup>o</sup>C</div>
+<div class="forecast-icon">
+<img src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" width="90">
+</div>	
+</div>
+<div class="custom">Clear</div>
+<span><img src="images/icon-umberella.png" alt="">20%</span>
+<span><img src="images/icon-wind.png" alt="">18km/h</span>
+<span><img src="images/icon-compass.png" alt="">East</span>
+</div>
+</div>
+</div>
+
+<div class="card bg-dark">
+<div class="forecast-header text-center  text-secondary">
+<div class="day">Monday</div>
+</div>
+<div class="forecast-content text-light text-center">
+	<div class="forecast-icon">
+		<img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+	</div>
+	<div class="degree fs-3 fw-bold">22.1<sup>o</sup>C</div>
+	<small class="text-secondary">11.8<sup>o</sup></small>
+	<div class="custom text-info">Sunny</div>
+</div>
+</div>
+
+<div class="card" id="card-b">
+	<div class="forecast-header text-center  text-secondary">
+		<div class="day">Tuesday</div>
+	</div>
+	<div class="card-body text-light  text-center">
+		<div class="forecast-content">
+            <div class="forecast-icon">
+                <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+            </div>
+            <div class="degree fs-3 fw-bold">22<sup>o</sup>C</div>
+            <small  class="text-secondary">12.9<sup>o</sup></small>
+            <div class="custom text-info">Sunny</div>
+        </div>
+	</div>
+ </div>
+ </div>
+</div>
+
+
+
+<footer class="site-footer ">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form class="find-location position-relative w-75 ">
+<input type="text" placeholder="Enter your email tosubscribe" class="my-5 py-2">								
+<input type="button" value="Find" id="submit" class="my-5">
+</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="social-links">
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-google-plus"></i></a>
+								<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+							</div>
+						</div>
+
+
+					<p class="colophon text-center text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+				</div>
+</footer>
+		</div>
+	</div>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="maine.js"></script>
+		
+		</body>
+
+</html>

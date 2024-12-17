@@ -1,0 +1,40 @@
+.branding{text-decoration: none;}
+
+.site-description{font-size: xx-small;
+color: #bfc1c8;}
+#nav{background-color:#009ad8  ;}
+.input-group{border-radius: 50vh;}
+
+#btn{ background-color:#009ad8 ;}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+border-radius: 50vh;}
+
+input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 50vh;
+    background-color: #009ad8;
+    color: white;
+    border: none;
+}
+
+.hero {
+background-size: cover;
+height: 50vh;
+}
+#card-b{background-color:#323544 ;}
+
+.forecast-header{background-color:#2d303d ;}
+
+.site-footer{background-color: #323544;}
+
+.num{font-size: 4em;
+font-weight: 800;}
